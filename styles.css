@@ -20,3 +20,12 @@ body{background:radial-gradient(ellipse at 78% 8%,#ececff 0,transparent 32%),lin
 h1 em,h2 em,.profile-benefit span{color:#6856c6}
 button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #9a98ef;outline-offset:3px}
 .search:focus-within,.filters select:focus,.modal-form input:focus,.modal-form textarea:focus{border-color:#8991e8;box-shadow:0 0 0 3px #8991e822}
+
+/* Palette overrides for inline dashboard and opportunity colors */
+.company-dashboard-page [style*="background:white"]{background:#fdfdff!important;border-color:#e5e7f4!important}
+.company-dashboard-page [style*="border:1px solid #e7ebe6"]{border-color:#e5e7f4!important}
+.company-dashboard-page [style*="color:#285744"]{color:#4357c8!important}
+.company-dashboard-page [style*="#e7efe6"],.company-dashboard-page [style*="#f7e9df"],.company-dashboard-page [style*="#e9eef7"]{background:#e9e9ff!important;color:#5d61bd!important}
+#jobGrid .company-logo[style*="#e8f1e8"],#jobGrid .company-logo[style*="#e9eef7"]{background:#e9e9ff!important;color:#5d61bd!important}
+#jobGrid .company-logo[style*="#f7e9df"],#jobGrid .company-logo[style*="#eeebf6"]{background:#eeeaff!important;color:#6856c6!important}
+.company-dashboard-page .student-profile-button,.company-dashboard-page #dashboardPublish{border-radius:14px}
